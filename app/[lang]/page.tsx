@@ -1,5 +1,5 @@
 import Header from "@/components/Appbar/AppBar";
-import { getDictionary } from "./dictionaries";
+import { getDictionary } from "../dictionaries";
 
 async function Index({ params }: any) {
   const { title, description } = await getDictionary(params.lang); // en
